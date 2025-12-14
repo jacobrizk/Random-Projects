@@ -33,4 +33,7 @@ for i in range(n_sample + 1):
 #making plot
 plt.plot(x_axis,y_axis)
 plt.grid()
+plt.title("Oscilloscope Graph")
+plt.xlabel("Time (Seconds)")
+plt.ylabel("Amplitude (Unitless)")
 plt.show()
