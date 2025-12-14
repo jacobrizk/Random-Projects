@@ -9,9 +9,9 @@ runtime = 0.00005 #seconds
 amp = 1 #unitless
 freq = 20000 #hz
 
-#deriv
+#deriv (auto calculate steps and sample rate depending on freq & runtime)
 ang_freq = freq * 2 * math.pi #sin(x) frequnecy is 2pi, adjusts value for freq of time for f(x)
-x_step = runtime/freq
+x_step = runtime/freq 
 n_sample = int((1/x_step) * runtime)
 
 #making lists
