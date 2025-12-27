@@ -1,4 +1,4 @@
-n = int(input("what day of chirstmas? "))
+n = int(input("what day of Christmas? "))
 
 def each(num):
     if n >= num:
